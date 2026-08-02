@@ -13,6 +13,10 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
     "better-sqlite3": "^11.7.0",
+    "node-llama-cpp": "^3.19.1",
     "zod": "^3.23.8"
+  },
+  "allowScripts": {
+    "node-llama-cpp@3.19.1": true
   }
 }
