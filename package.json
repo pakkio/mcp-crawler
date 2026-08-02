@@ -1,0 +1,18 @@
+{
+  "name": "mcp-crawler-search",
+  "version": "1.0.0",
+  "description": "MCP server that crawls a URL, indexes text in SQLite FTS5, and searches with regex/plain-text matching (no AI).",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mcp-crawler-search": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "better-sqlite3": "^11.7.0",
+    "zod": "^3.23.8"
+  }
+}
